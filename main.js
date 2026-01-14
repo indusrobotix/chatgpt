@@ -1,3 +1,3 @@
-window.addEventListener("load", () => {
-  document.getElementById("loader").style.display = "none";
+document.addEventListener("DOMContentLoaded", () => {
+  document.body.classList.add("loaded");
 });
